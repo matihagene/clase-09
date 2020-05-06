@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,700i,900,900i&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
@@ -8,8 +11,9 @@ body {
     background: linear-gradient(180deg, rgba(225, 228, 239, 0.8) 200px, rgba(225, 228, 239, 0.9) 300px, rgba(225, 228, 239, 1) 400px), url('image-bg.jpg');
     background-size: 100% auto;
     background-repeat: no-repeat;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Lato', sans-serif;
     line-height: 1.4;
+    font-weight: 300;
 }
 
 @media screen and (orientation:portrait) {
@@ -24,16 +28,17 @@ a, em, strong {
 }
 
 h1 {
-    font-family: Georgia, serif;
-    color: #6d2b65;
+    ffont-family: 'Lato', sans-serif;
+    color: #002147;
 }
 
 h1 a {
-    color: #6d2b65;
+    color: #002147;
+    text-decoration: none;
 }
 
 h1 a:hover {
-    color: #7a4083;
+    color: #002147;
 }
 
 h2, h3, h4, h5, h6 {
@@ -71,6 +76,11 @@ p {
 h2 + p{
     font-size:115%;
     text-align:left;
+}
+
+.highlight {
+    font-weight: 500;
+    color: #002147;
 }
 
 blockquote {
